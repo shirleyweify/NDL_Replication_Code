@@ -188,10 +188,12 @@ def main():
     os.chdir(work_dir)
 
     # path to read raw data
+    # !!! remember to modify to your own directory where TUH data are saved
     raw_data_dir = work_dir + '/data/tuev/edf/'
 
     # path to write pre-processed segmented data
     processed_data_dir = work_dir + '/data/segment/'
+    os.makedirs(processed_data_dir, exist_ok=True)
 
     # path to save model and output
     model_name = 'tuh_' + '_' + str(args.lr) + '_' + str(args.gamma) + '_' + str(args.step_size) + '.pt'

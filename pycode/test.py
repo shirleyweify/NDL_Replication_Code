@@ -203,9 +203,11 @@ def main():
     # otherwise, no data will be available under the `test` folder
     # ---------- #
     raw_data_dir = work_dir + '/data/test/'
+    os.makedirs(raw_data_dir, exist_ok=True)
 
     # path to write pre-processed segmented data
     annotated_data_dir = work_dir + '/data/annotation/'
+    os.makedirs(annotated_data_dir, exist_ok=True)
 
     # path to save model and output
     model_name = 'tuh_fine_tuned.pt'
