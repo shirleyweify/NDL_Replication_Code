@@ -6,15 +6,6 @@ Keywords: epilepsy, Electroencephalography, spike detection, deep learning, neur
 ArXiv link: https://arxiv.org/abs/2410.03191
 ```
 
-If you would like to use the codes, please cite:
-
-**Wei, Fangyi, Jiajie Mo, Kai Zhang, Haipeng Shen, Srikantan Nagarajan, and Fei Jiang. "Nested deep learning model towards a foundation model for brain signal data." arXiv preprint arXiv:2410.03191 (2024).**
-
-Please send your formal request to [fwei@connect.hku.hk](mailto:fwei@connect.hku.hk) if any.
-
-The work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 license (https://creativecommons.org/licenses/by-nc-nd/4.0/).
-
-
 ---
 
 ## Data
@@ -96,3 +87,16 @@ To require the model trained using the private UCSF MEG data, please send your f
 to [fwei@connect.hku.hk](mailto:fwei@connect.hku.hk).
 
 ---
+
+## Notes
+
+If you would like to use the codes, please cite:
+
+**Wei, Fangyi, Jiajie Mo, Kai Zhang, Haipeng Shen, Srikantan Nagarajan, and Fei Jiang. "Nested deep learning model
+towards a foundation model for brain signal data." arXiv preprint arXiv:2410.03191 (2024).**
+
+To require the private data model, please send your formal request to [fwei@connect.hku.hk](mailto:fwei@connect.hku.hk).
+
+The work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0
+license (https://creativecommons.org/licenses/by-nc-nd/4.0/).
+
