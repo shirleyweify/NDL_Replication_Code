@@ -3,7 +3,6 @@
 ```
 Title: Nested Deep Learning Model Towards a Foundation Model for Brain Signal Data
 Keywords: epilepsy, Electroencephalography, spike detection, deep learning, neuroimaging
-ArXiv link: https://arxiv.org/abs/2410.03191
 ```
 
 ---
@@ -83,19 +82,20 @@ To test the fine-tuned model `model/tuh_fine_tuned.pt` on raw edf data, run `tes
 You may write your own functions to read the raw data in other formats such as `.m00` and so on.
 
 The model `model/tuh_fine_tuned.pt` is trained using the open-source TUH data.
-To require the model trained using the private UCSF MEG data, please send your formal request
-to [fwei@connect.hku.hk](mailto:fwei@connect.hku.hk).
+To require the model trained using the private UCSF MEG data, please send us your formal request.
 
 ---
 
 ## Notes
 
-If you would like to use the codes, please cite:
+[//]: # (If you would like to use the codes, please cite:)
 
-**Wei, Fangyi, Jiajie Mo, Kai Zhang, Haipeng Shen, Srikantan Nagarajan, and Fei Jiang. "Nested deep learning model
-towards a foundation model for brain signal data." arXiv preprint arXiv:2410.03191 (2024).**
+[//]: # ()
+[//]: # (**Wei, Fangyi, Jiajie Mo, Kai Zhang, Haipeng Shen, Srikantan Nagarajan, and Fei Jiang. "Nested deep learning model)
 
-To require the private data model, please send your formal request to [fwei@connect.hku.hk](mailto:fwei@connect.hku.hk).
+[//]: # (towards a foundation model for brain signal data." arXiv preprint arXiv:2410.03191 &#40;2024&#41;.**)
+
+To require the private data model, please send us your formal request.
 
 The work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0
 license (https://creativecommons.org/licenses/by-nc-nd/4.0/).
